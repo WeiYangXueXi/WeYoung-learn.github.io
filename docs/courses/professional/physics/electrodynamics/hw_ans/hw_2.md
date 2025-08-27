@@ -349,7 +349,7 @@ $\nabla \times \vec{A} = 0$ 表现为该点的矢量场沿着径向或者为0。
 
 函数  $\frac{\mathrm{d}\delta(x)}{\mathrm{d}x}$ 的图：
 
-![image-20250228141027350](/Users/wutong/Library/Application Support/typora-user-images/image-20250228141027350.png)
+![image-20250228141027350](image-20250228141027350.png)
 
 注：因为严格的图像画出后函数曲线和坐标轴不太好分辨，此图是利用高斯函数在极限情况下的一个近似图像，可以体现函数的部分性质。 
 

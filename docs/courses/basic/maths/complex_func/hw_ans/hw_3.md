@@ -1,6 +1,6 @@
 # 复变函数 第3次作业
 
-吴桐 2024012555
+Chasse_neige
 
 4.判断下列函数是否为多值函数, 若为多值函数, 请分析其支点的情况
 
@@ -52,7 +52,7 @@ $z = \frac{\pi}{2} + k \pi \quad (k \in \mathbb{Z})$：此时$z$绕行一圈后$
 
 5.函数 $w (z) = z + \sqrt{z - 1}$, 规定 $w(2) =1$, 试分别求当 $z$ 沿着图中 $C1$ 和 $C2$连续变化时 $w(−3)$ 的值
 
-<img src="/Users/wutong/Library/Application Support/typora-user-images/image-20250425155000791.png" alt="image-20250425155000791" style="zoom:50%;" />
+![image-20250425155000791](image-20250425155000791.png)
 
 函数支点为 $z = 1$ 以及无穷远点，由于 $w (2) = 1$，所以函数在 $x$ 轴正半轴上辐角为 $2 \pi$
 
@@ -68,7 +68,7 @@ $$
 
 7.函数 $\ln \frac{1 - z}{1 + z}$, 规定 $w(0) = 0$, 试讨论当 $z$ 分别限制在图 $(a)$ 和 $(b)$ 中变化时, $w(3)$ 为多少? $w(∞)$ 又是多少?
 
-<img src="/Users/wutong/Library/Application Support/typora-user-images/image-20250425160157331.png" alt="image-20250425160157331" style="zoom:50%;" />
+![image-20250425160157331](image-20250425160157331.png)
 
 当 $z$ 限制在图 $(a)$  中变化时
 
