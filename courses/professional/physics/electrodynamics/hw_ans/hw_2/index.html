@@ -1,0 +1,4867 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../../">
+      
+      
+        <link rel="next" href="../hw_3/">
+      
+      
+      <link rel="icon" href="../../../../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.18">
+    
+    
+      
+        <title>hw_2 - 未央学习</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../../../assets/stylesheets/main.7e37652d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../../../custom_css/extra.css">
+    
+    <script>__md_scope=new URL("../../../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+    
+    
+    
+   <link href="../../../../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../../../../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="light-blue" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#2" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../../../../../.." title="未央学习" class="md-header__button md-logo" aria-label="未央学习" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 9h5.5L13 3.5zM6 2h8l6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4c0-1.11.89-2 2-2m9 16v-2H6v2zm3-4v-2H6v2z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            未央学习
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              hw_2
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="light-blue" data-md-color-accent="indigo"  aria-label="dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="light-blue" data-md-color-accent="indigo"  aria-label="light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/WeYoung-learn/WeYoung-learn.github.io" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    WeYoung-learn
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../../.." class="md-tabs__link">
+          
+  
+  
+  首页
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../../../course_selection/" class="md-tabs__link">
+          
+  
+  
+  选课指南
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../../../../" class="md-tabs__link">
+          
+  
+  
+  课程指引
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../../../skills/" class="md-tabs__link">
+          
+  
+  
+  技能培训
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../../../resources/" class="md-tabs__link">
+          
+  
+  
+  资源链接
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../../../sharing/books/" class="md-tabs__link">
+          
+  
+  
+  资源共享
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../../../activities/" class="md-tabs__link">
+          
+  
+  
+  未央活动
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../../../.." title="未央学习" class="md-nav__button md-logo" aria-label="未央学习" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 9h5.5L13 3.5zM6 2h8l6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4c0-1.11.89-2 2-2m9 16v-2H6v2zm3-4v-2H6v2z"/></svg>
+
+    </a>
+    未央学习
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/WeYoung-learn/WeYoung-learn.github.io" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    WeYoung-learn
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    首页
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            首页
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    欢迎来到未央学习
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../reader/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    读者须知
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../author/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    加入我们！
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    选课指南
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            选课指南
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../course_selection/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    介绍
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../course_selection/politics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    思政篇
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../course_selection/chem_bio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    化生篇
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../course_selection/math_phys/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    数理篇
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../course_selection/engineer_info/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    工信篇
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../course_selection/english/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    英语篇
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../course_selection/pe/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    体育篇
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../course_selection/general/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    通识篇
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    课程指引
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            课程指引
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    介绍
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    基础课
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            基础课
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2_1" id="__nav_3_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    数学类
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            数学类
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../basic/maths/calculus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    微积分
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../basic/maths/linear_algebra/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    线性代数
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_1_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2_1_3" id="__nav_3_2_1_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    复变函数
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_3_2_1_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_1_3">
+            <span class="md-nav__icon md-icon"></span>
+            复变函数
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../basic/maths/complex_func/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    介绍
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_1_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2_1_3_2" id="__nav_3_2_1_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    作业答案
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="5" aria-labelledby="__nav_3_2_1_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_1_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            作业答案
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../basic/maths/complex_func/hw_ans/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    主页
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../basic/maths/complex_func/hw_ans/hw_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    hw_1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../basic/maths/complex_func/hw_ans/hw_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    hw_2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../basic/maths/complex_func/hw_ans/hw_3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    hw_3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../basic/maths/complex_func/hw_ans/hw_4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    hw_4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../basic/maths/complex_func/hw_ans/hw_5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    hw_5
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../basic/maths/complex_func/hw_ans/hw_6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    hw_6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../basic/maths/complex_func/hw_ans/hw_7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    hw_7
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../basic/maths/complex_func/hw_ans/hw_8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    hw_8
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../basic/maths/complex_func/hw_ans/hw_9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    hw_9
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../basic/maths/complex_func/hw_ans/hw_10/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    hw_10
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../basic/maths/complex_func/hw_ans/hw_11/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    hw_11
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../basic/maths/mathematical_physics_equations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    数学物理方程
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../basic/maths/probability/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    概率论
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2_2" id="__nav_3_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    物理类
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            物理类
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../basic/physics/fundamental_physics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    基础物理学
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../basic/physics/quantum_mechanics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    量子力学(1)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2_3" id="__nav_3_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    实验类
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            实验类
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../basic/labs/lab_of_physics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    物理实验
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2_4" id="__nav_3_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    思政类
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            思政类
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../basic/politics/basic_principles_of_marxism/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    马克思主义基本原理
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2_5" id="__nav_3_2_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    化生类
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            化生类
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../basic/chem_bio/intro_to_modern_biology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    现代生物学导论
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../basic/chem_bio/university_chemistry_b/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    大学化学B
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../basic/chem_bio/physical_chemistry_b/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    物理化学B
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2_6" id="__nav_3_2_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    工程/信息基础课程
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_6">
+            <span class="md-nav__icon md-icon"></span>
+            工程/信息基础课程
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../basic/engineer_info/discrete_mathematics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    离散数学
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../basic/engineer_info/discrete_mathematics_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    离散数学(2)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_6_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2_6_3" id="__nav_3_2_6_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    程序设计基础
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_3_2_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            程序设计基础
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../basic/engineer_info/programming/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    主页
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../basic/engineer_info/programming/note_py/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Python 程序设计笔记
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../basic/engineer_info/programming/note_cpp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    C++ 程序设计笔记
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../basic/engineer_info/fundamentals_of_engineering_graphics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    工程图学基础/机械设计基础(1)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    专业课
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            专业课
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3_1" id="__nav_3_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    数学类
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            数学类
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../maths/ordinary_differential_equation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    常微分方程
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../maths/advanced_algebra_selected/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    高等线性代数选讲（英）
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../maths/fundamental_topology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    基础拓扑学
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3_1_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3_1_4" id="__nav_3_3_1_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    高等微积分
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_3_3_1_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3_1_4">
+            <span class="md-nav__icon md-icon"></span>
+            高等微积分
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../maths/advanced_calculus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    介绍
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../maths/advanced_calculus/ans/hw_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    hw_1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../maths/advanced_calculus/ans/hw_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    hw_2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../maths/advanced_calculus/ans/hw_3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    hw_3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../maths/advanced_calculus/ans/hw_4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    hw_4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../maths/advanced_calculus/ans/hw_5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    hw_5
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../maths/advanced_calculus/ans/hw_6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    hw_6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../maths/advanced_calculus/ans/hw_7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    hw_7
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../maths/advanced_calculus/ans/hw_8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    hw_8
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../maths/advanced_calculus/ans/hw_9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    hw_9
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../maths/advanced_calculus/ans/hw_10/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    hw_10
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_3_2" id="__nav_3_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    物理类
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_3_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            物理类
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../statistical_mechanics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    统计力学
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3_2_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_3_2_2" id="__nav_3_3_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    电动力学
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_3_3_2_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_3_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            电动力学
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    介绍
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    hw_2
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    hw_2
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. 矢量分析
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. 矢量分析">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a" class="md-nav__link">
+    <span class="md-ellipsis">
+      (a)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#b" class="md-nav__link">
+    <span class="md-ellipsis">
+      (b)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c" class="md-nav__link">
+    <span class="md-ellipsis">
+      (c) 思考选做题
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. 场论
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. 场论">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.6
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      思考题
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-delta" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. \(\delta\) 函数
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. \(\delta\) 函数">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#214" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.14
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      思考题：
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hw_3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    hw_3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hw_4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    hw_4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hw_5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    hw_5
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hw_6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    hw_6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hw_7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    hw_7
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hw_8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    hw_8
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hw_9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    hw_9
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hw_10/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    hw_10
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hw_12/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    hw_12
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hw_13/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    hw_13
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hw_14/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    hw_14
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hw_15/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    hw_15
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3_3" id="__nav_3_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    电类
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            电类
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../electricity/principles_of_circuits/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    电路原理
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../electricity/electrical_and_electronic_technology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    电工与电子技术
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../electricity/power_electronics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    电力电子技术
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3_4" id="__nav_3_3_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    材料类
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            材料类
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../materials/funda_of_materials_science/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    材料科学基础
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../materials/engineering_materials/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    工程材料
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3_5" id="__nav_3_3_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    计算类
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            计算类
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../computing/princ_and_app_of_computer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    计算机原理与应用
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../computing/dynamic_modeling_and_simulation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    动力建模与仿真
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3_6" id="__nav_3_3_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    能源类
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_3_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            能源类
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../energy/energy_storage_technology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    储能技术
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../energy/gas_turbine_theory/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    先进燃气轮机理论与实验技术
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3_7" id="__nav_3_3_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    机械类
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_3_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3_7">
+            <span class="md-nav__icon md-icon"></span>
+            机械类
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../mechanics/mechnical_design_b3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    机械设计基础 B(3)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3_8" id="__nav_3_3_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    土木类
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_3_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3_8">
+            <span class="md-nav__icon md-icon"></span>
+            土木类
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../civil/engineering_economics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    工程经济学
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    通识选修课
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            通识选修课
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../general/principles_of_economics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    经济学原理
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../general/zhuangzi_guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    《庄子》导读
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    技能培训
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            技能培训
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../skills/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    介绍
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../skills/mkdocs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    mkdocs：搭建一个属于你的小网站
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../skills/markdown/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Markdown：无纸化学习必备
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../skills/endnote/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    EndNote： 你的宝藏文献管理工具
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../skills/matlab/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    MATLAB 讲座
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../skills/latex/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    LaTeX 讲座
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../skills/R/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    R语言使用指南
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    资源链接
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            资源链接
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    介绍
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../resources/lexue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    乐学资源
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    资源共享
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            资源共享
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../sharing/books/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    旧书传递
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../sharing/contribution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    学习资料共享计划
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    未央活动
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            未央活动
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../activities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    介绍
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. 矢量分析
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. 矢量分析">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a" class="md-nav__link">
+    <span class="md-ellipsis">
+      (a)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#b" class="md-nav__link">
+    <span class="md-ellipsis">
+      (b)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c" class="md-nav__link">
+    <span class="md-ellipsis">
+      (c) 思考选做题
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. 场论
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. 场论">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.6
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      思考题
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-delta" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. \(\delta\) 函数
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. \(\delta\) 函数">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#214" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.14
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      思考题：
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="2">电动力学 第2周作业</h1>
+<p>Chasse_neige</p>
+<p>本作业所有求和默认采用爱因斯坦求和约定。</p>
+<h3 id="1">1. 矢量分析</h3>
+<h4 id="a">(a)</h4>
+<p><span class="arithmatex">\(\epsilon_{ijk}\)</span> 满足:
+$$
+\sum_{k=1}^{3} \epsilon_{ijk} \epsilon_{lmk} = \delta_{il} \delta_{jm} - \delta_{im} \delta_{jl}
+$$</p>
+<p>证明：</p>
+<p>先除去所有 <span class="arithmatex">\(\epsilon_{ijk} \epsilon_{lmk} = 0\)</span> 的情况，仅考虑<span class="arithmatex">\(i,j,k \text{和} l,m,k\)</span> 互不相同的时侯。此时仅存在两种情况， <span class="arithmatex">\(i=l\)</span> 且 <span class="arithmatex">\(j=m\)</span> 和 <span class="arithmatex">\(i=m \text{且} j=l\)</span> 。显然，当 <span class="arithmatex">\(i=l\)</span> 且 <span class="arithmatex">\(j=m\)</span>时，<span class="arithmatex">\(\epsilon_{ijk} = \epsilon_{lmk}\)</span> ；当 <span class="arithmatex">\(i=m \text{且} j=l\)</span> 时，<span class="arithmatex">\(\epsilon_{ijk} = - \epsilon_{lmk}\)</span>。所以 <span class="arithmatex">\(\epsilon_{ijk} \epsilon_{lmk} = \delta_{il} \delta_{jm} - \delta_{im} \delta_{jl}\)</span>，因为求和时仅有一个 <span class="arithmatex">\(k\)</span> 满足<span class="arithmatex">\(i,j,k \text{和} l,m,k\)</span> 互不相同的条件。</p>
+<h4 id="b">(b)</h4>
+<p>用 <span class="arithmatex">\(\delta_{ij}\)</span> 和 <span class="arithmatex">\(\epsilon_{ijk}\)</span> 证明，</p>
+<p>1.
+$$
+\vec{a} \times (\vec{b} \times \vec{c}) = (\vec{a} \cdot \vec{c}) \vec{b} - (\vec{a} \cdot \vec{b}) \vec{c}
+$$
+证明：
+$$
+\begin{aligned}
+\vec{a} \times  (\vec{b} \times \vec{c}) &amp;= \epsilon_{lkm} \epsilon_{ijk} a_{l} b_{i} c_{j} \vec{e_{m}} = \epsilon_{mlk} \epsilon_{ijk} a_{l} b_{i} c_{j} \vec{e_{m}} \\
+&amp;= (\delta_{mi} \delta_{lj} - \delta_{mj} \delta_{li}) a_{l} b_{i} c_{j} \vec{e_{m}} = a_{j} b_{i} c_{j} \vec{e_{i}} - a_{i} b_{i} c_{j} \vec{e_{m}} = (\vec{a} \cdot \vec{c}) \vec{b} - (\vec{a} \cdot \vec{b}) \vec{c}
+\end{aligned}
+$$
+2.
+$$
+(\vec{a} \times \vec{b}) \times (\vec{c} \times \vec{d}) = [\vec{a} \cdot (\vec{b} \times \vec{d})] \vec{c} - [\vec{a} \cdot (\vec{b} \times \vec{c})] \vec{d} = [\vec{a} \cdot (\vec{c} \times \vec{d})] \vec{b} - [\vec{b} \cdot (\vec{c} \times \vec{d})] \vec{a}
+$$
+证明：
+$$
+\begin{aligned}
+(\vec{a} \times \vec{b}) \times (\vec{c} \times \vec{d}) &amp;= (\epsilon_{ijk} a_{i} b_{j} \vec{e_{k}}) \times (\epsilon_{lmn} c_{l} d_{m} \vec{e_{n}}) \\
+&amp;= \epsilon_{kns} \epsilon_{ijk} \epsilon_{lmn} a_{i} b_{j} c_{l} d_{m} \vec{e_{s}} = \epsilon_{ijk} (\delta_{sl} \delta_{km} - \delta_{sm} \delta_{kl}) a_{i} b_{j} c_{l} d_{m} \vec{e_{s}} \\
+&amp;= \epsilon_{ijk}  (a_{i} b_{j} c_{l} d_{k} \vec{e_{l}} - a_{i} b_{j} c_{k} d_{m} \vec{e_{m}}) = [\vec{a} \cdot (\vec{b} \times \vec{d})] \vec{c} - [\vec{a} \cdot (\vec{b} \times \vec{c})] \vec{d} \\
+\epsilon_{kns} \epsilon_{ijk} \epsilon_{lmn} a_{i} b_{j} c_{l} d_{m} \vec{e_{s}} &amp;= (\delta_{ni} \delta_{sj} - \delta_{nj} \delta_{si}) \epsilon_{lmn} a_{i} b_{j} c_{l} d_{m} \vec{e_{s}} \\
+&amp;= \epsilon_{lmn} (a_{n} b_{s} c_{l} d_{m} \vec{e_{s}} - a_{s} b_{n} c_{l} d_{m} \vec{e_{s}}) = [\vec{a} \cdot (\vec{c} \times \vec{d})] \vec{b} - [\vec{b} \cdot (\vec{c} \times \vec{d})] \vec{a}
+\end{aligned}
+$$</p>
+<h4 id="c">(c) 思考选做题</h4>
+<p>试证明</p>
+<p>i. 一阶张量除零矢量外，都不是各向同性的</p>
+<p>证明：矢量<span class="arithmatex">\(\vec{A} = \begin{pmatrix} A_{1}, A_{2}, \cdots, A_{n} \end{pmatrix}\)</span> 各向同性意味着对所有方向的单位矢量而言，<span class="arithmatex">\(\vec{A}\)</span> 在它们上的投影值相同。
+$$
+\vec{A} \cdot \hat{e} = |\vec{A}| \cos&lt;\vec{A}, \hat{e}&gt; = const
+$$</p>
+<div class="arithmatex">\[
+\therefore \,\, |\vec{A}| = 0
+\]</div>
+<p>ii. 二阶张量中的各向同性的张量必为 <span class="arithmatex">\(\lambda \delta_{ij}\)</span></p>
+<p>证明：设二阶张量 $T_{ij} $ 满足 $ Q_{ki} Q_{lj} T_{ij} = T_{kl} $ 对所有正交阵 <span class="arithmatex">\(Q <span class="arithmatex">\(均成立。取\)</span>Q\)</span>为绕 <span class="arithmatex">\(z\)</span> 轴的旋转阵，代入条件可得：
+$$
+\begin{aligned}
+\begin{bmatrix} \cos \theta &amp; \sin \theta \\
+- \sin \theta &amp;  \cos \theta \end{bmatrix} \begin{bmatrix} T_{11} &amp; T_{12} \\
+T_{21} &amp; T_{22} \end{bmatrix} \begin{bmatrix} \cos \theta &amp; - \sin \theta \\
+\sin \theta &amp; \cos \theta \end{bmatrix}  = \begin{bmatrix} T_{11} &amp; T_{12} \\
+T_{21} &amp; T_{22} \end{bmatrix}
+\end{aligned}
+$$</p>
+<p>$$
+\begin{aligned}
+\therefore \,\, \begin{cases} T_{11} &amp;= T_{12} \\
+T_{22} &amp;= T_{21} = 0 \end{cases}
+\end{aligned}
+$$
+同理，可以得到
+$$
+\begin{aligned}
+\begin{cases} T_{11} &amp;= T_{33} \\
+T_{13} &amp;= T_{31} = 0 \\
+T_{22} &amp;= T_{33} \\
+T_{23} &amp;= T_{32} = 0 \end{cases}
+\end{aligned}
+$$
+即<span class="arithmatex">\(T_{ij} = \lambda \delta_{ij}\)</span></p>
+<p>iii. 三阶张量中的各向同性的张量必为 <span class="arithmatex">\(\lambda \epsilon_{ijk}\)</span></p>
+<p>证明：此时用上面的方法去凑变换消去自由度太繁琐，尝试再换一种方法：</p>
+<p>考虑坐标架的一个无穷小转动 <span class="arithmatex">\(\delta \vec{\theta}\)</span> 则任意三阶张量在转动后可以表达为：
+$$
+T_{ijk}^{'} = T_{ijk} + \delta \theta_{l} (\epsilon_{lim}T_{mjk} + \epsilon_{ljm} T_{imk} + \epsilon_{lkm} T_{ijm})
+$$
+要求转动前后分量相等，所以
+$$
+\epsilon_{lim}T_{mjk} + \epsilon_{ljm} T_{imk} + \epsilon_{lkm} T_{ijm} = 0
+$$
+假设 $T $是完全反对称的，即满足：
+$$
+T_{ijk} = A \epsilon_{ijk},
+$$
+将 $ T_{ijk} = A \epsilon_{ijk} $ 代入原方程：
+$$
+\epsilon_{lim} (A \epsilon_{mjk}) + \epsilon_{ljm} (A \epsilon_{imk}) + \epsilon_{lkm} (A \epsilon_{ijm}) = 0.
+$$
+提取常数 <span class="arithmatex">\( A \)</span>：
+$$
+A \left( \epsilon_{lim} \epsilon_{mjk} + \epsilon_{ljm} \epsilon_{imk} + \epsilon_{lkm} \epsilon_{ijm} \right) = 0.
+$$
+将三项相加：
+$$
+\begin{aligned}
+&amp; (\delta_{lj}\delta_{ik} - \delta_{lk}\delta_{ij}) \\
++ &amp; (-\delta_{li}\delta_{jk} + \delta_{lk}\delta_{ij}) \\
++ &amp; (\delta_{li}\delta_{kj} - \delta_{lj}\delta_{ki}) \\
+= &amp; \delta_{lj}\delta_{ik} - \delta_{lk}\delta_{ij} -\delta_{li}\delta_{jk} + \delta_{lk}\delta_{ij} + \delta_{li}\delta_{kj} - \delta_{lj}\delta_{ki} = 0
+\end{aligned}
+$$
+对于非完全反对称的一般 <span class="arithmatex">\(T\)</span> ，对其做对称反对称分解，其中的对称部分设为<span class="arithmatex">\(S_{ijk}\)</span></p>
+<p>带入：
+$$
+\epsilon_{lim} S_{mjk} + \epsilon_{ljm} S_{imk} + \epsilon_{lkm} S_{ijm} = 0
+$$</p>
+<div class="arithmatex">\[
+\epsilon_{lnm} (\epsilon_{lim} S_{mjk} + \epsilon_{ljm} S_{imk} + \epsilon_{lkm} S_{ijm}) = 0
+\]</div>
+<div class="arithmatex">\[
+2(\delta_{ni} S_{mjk} + \delta_{nj} S_{imk} + \delta_{nk} S_{ijm}) = 0
+\]</div>
+<p>当 <span class="arithmatex">\(n = i\)</span> 时：
+$$
+\delta_{ni} S_{mjk} + \delta_{nj} S_{imk} + \delta_{nk} S_{ijm} = S_{mjk} + \delta_{ij} S_{imk} + \delta_{ik} S_{ijm} =  S_{mjk} + S_{jmk} + S_{kjm} = 
+3 S_{mjk}
+$$</p>
+<p>当<span class="arithmatex">\(n = j\)</span> 和<span class="arithmatex">\(n = k\)</span> 时同理。
+$$
+\therefore \,\, \delta_{ni} S_{mjk} + \delta_{nj} S_{imk} + \delta_{nk} S_{ijm} = 
+3 (S_{mjk} + S_{imk} + S_{ijm}) = 0
+$$</p>
+<div class="arithmatex">\[
+S_{ijk} = 0
+\]</div>
+<p>即不能存在对称分量。</p>
+<p>iv. 四阶张量中的各向同性的张量必为 <span class="arithmatex">\(\lambda \delta_{ij} \delta_{kl} + \alpha \delta_{ik} \delta_{jl} + \beta \delta_{il} \delta_{jk}\)</span></p>
+<p>对于四阶各向同性张量，推广形式为：  </p>
+<p><span class="arithmatex">\(\epsilon_{mis}\,a_{sjkl} + \epsilon_{mjs}\,a_{iskl} + \epsilon_{mks}\,a_{ijsl} + \epsilon_{mls}\,a_{ijks} = 0\)</span>  </p>
+<p>分别乘以<span class="arithmatex">\(\epsilon_{mit}\)</span>、<span class="arithmatex">\(\epsilon_{mjt}\)</span>、<span class="arithmatex">\(\epsilon_{mkt}\)</span>和<span class="arithmatex">\(\epsilon_{mlt}\)</span>，并令<span class="arithmatex">\(t=i\)</span>、<span class="arithmatex">\(t=j\)</span>、<span class="arithmatex">\(t=k\)</span>和<span class="arithmatex">\(t=l\)</span>，得到：  </p>
+<p><span class="arithmatex">\(2\,a_{ijkl} + a_{jikl} + a_{kjil} + a_{ljki} = a_{sskl}\,\delta_{ij} + a_{sjsl}\,\delta_{ik} + a_{sjks}\,\delta_{il}\)</span> 
+<span class="arithmatex">\(2\,a_{ijkl} + a_{jikl} + a_{ikjl} + a_{iljk} = a_{sskl}\,\delta_{ij} + a_{isks}\,\delta_{jl} + a_{issl}\,\delta_{jk}\)</span> 
+<span class="arithmatex">\(2\,a_{ijkl} + a_{kjil} + a_{ikjl} + a_{ijlk} = a_{ijss}\,\delta_{kl} + a_{sjsl}\,\delta_{ik} + a_{issl}\,\delta_{jk}\)</span> 
+<span class="arithmatex">\(2\,a_{ijkl} + a_{ljki} + a_{ilkj} + a_{ijlk} = a_{ijss}\,\delta_{kl} + a_{isks}\,\delta_{jl} + a_{sjks}\,\delta_{il}\)</span>  </p>
+<p>由于<span class="arithmatex">\(a_{sskl}\)</span>、<span class="arithmatex">\(a_{sjsl}\)</span>和<span class="arithmatex">\(a_{sjks}\)</span>是二阶各向同性张量，我们有：  </p>
+<p><span class="arithmatex">\(a_{sskl} = \lambda\,\delta_{kl}\)</span>
+<span class="arithmatex">\(a_{sjsl} = \mu\,\delta_{jl}\)</span> 
+<span class="arithmatex">\(a_{sjks} = \nu\,\delta_{jk}\)</span>  </p>
+<p>因此，  </p>
+<p><span class="arithmatex">\(a_{ijkl} = \alpha\,\delta_{ij}\,\delta_{kl} + \beta\,\delta_{ik}\,\delta_{jl} + \gamma\,\delta_{il}\,\delta_{jk}\)</span>  </p>
+<p>其中：  </p>
+<p><span class="arithmatex">\(\alpha = \frac{4\lambda - \mu - \nu}{10}\)</span> 
+<span class="arithmatex">\(\beta = \frac{4\mu - \nu - \lambda}{10}\)</span> 
+<span class="arithmatex">\(\gamma = \frac{4\nu - \lambda - \mu}{10}\)</span>  </p>
+<h3 id="2_1">2. 场论</h3>
+<h4 id="11">1.1</h4>
+<p>根据算符∇的微分性与矢量性，推导下列公式：
+$$
+\nabla(\mathbf{A} \cdot \mathbf{B}) = \mathbf{B} \times (\nabla \times \mathbf{A}) + (\mathbf{B} \cdot \nabla) \mathbf{A} + \mathbf{A} \times (\nabla \times \mathbf{B}) + (\mathbf{A} \cdot \nabla) \mathbf{B}
+$$</p>
+<div class="arithmatex">\[
+\mathbf{A} \times (\nabla \times \mathbf{A}) = \frac{1}{2} \nabla A^2 - (\mathbf{A} \cdot \nabla) \mathbf{A}
+\]</div>
+<p>证明：第一个式子从右推左
+$$
+\mathbf{B} \times (\nabla \times \mathbf{A}) + \mathbf{A} \times (\nabla \times \mathbf{B}) = 
+\nabla_{A} (\mathbf{A} \cdot \mathbf{B}) + \nabla_{B} (\mathbf{A} \cdot \mathbf{B}) - (\mathbf{B} \cdot \nabla) \mathbf{A} - (\mathbf{A} \cdot \nabla) \mathbf{B}
+$$
+其中 <span class="arithmatex">\(\nabla\)</span> 的下标表示仅对该分量做微分。
+$$
+\begin{aligned}
+&amp;\therefore \,\, \mathbf{B} \times (\nabla \times \mathbf{A}) + (\mathbf{B} \cdot \nabla) \mathbf{A} + \mathbf{A} \times (\nabla \times \mathbf{B}) + (\mathbf{A} \cdot \nabla) \mathbf{B} \\
+&amp;= \nabla_{A} (\mathbf{A} \cdot \mathbf{B}) + \nabla_{B} (\mathbf{A} \cdot \mathbf{B}) - (\mathbf{B} \cdot \nabla) \mathbf{A} - (\mathbf{A} \cdot \nabla) \mathbf{B} + (\mathbf{B} \cdot \nabla) \mathbf{A} + (\mathbf{A} \cdot \nabla) \mathbf{B} \\
+&amp;= \nabla_{A} (\mathbf{A} \cdot \mathbf{B}) + \nabla_{B} (\mathbf{A} \cdot \mathbf{B}) = \nabla (\mathbf{A} \cdot \mathbf{B})
+\end{aligned}
+$$
+第二个式子从左推右，为了区分，给两个A加上下标，但是它们本质上是一样的。
+$$
+\mathbf{A_{1}} \times (\nabla \times \mathbf{A_{2}}) =  \nabla_{\mathbf{A_{2}}} (\mathbf{A_{1}} \cdot \mathbf{A_{2}}) - (\mathbf{A_{1}} \cdot \nabla) \mathbf{A_{2}}
+$$</p>
+<div class="arithmatex">\[
+\because \,\, \nabla_{\mathbf{A_{2}}} (\mathbf{A_{1}} \cdot \mathbf{A_{2}}) = \nabla_{\mathbf{A_{1}}} (\mathbf{A_{1}} \cdot \mathbf{A_{2}})
+\]</div>
+<div class="arithmatex">\[
+\therefore \,\, \nabla_{\mathbf{A_{2}}} (\mathbf{A_{1}} \cdot \mathbf{A_{2}}) = \frac{1}{2}  (\nabla_{\mathbf{A_{1}}} (\mathbf{A_{1}} \cdot \mathbf{A_{2}}) + \nabla_{\mathbf{A_{2}}} (\mathbf{A_{1}} \cdot \mathbf{A_{2}})) = \frac{1}{2} \nabla A^2
+\]</div>
+<div class="arithmatex">\[
+\therefore \,\, \mathbf{A} \times (\nabla \times \mathbf{A}) = \frac{1}{2} \nabla A^2 - (\mathbf{A} \cdot \nabla) \mathbf{A}
+\]</div>
+<h4 id="13">1.3</h4>
+<p>设 <span class="arithmatex">\(r=\sqrt{(x-x')^2+(y-y')^2+(z-z')^2}\)</span> 为源点 <span class="arithmatex">\(x'\)</span> 到场点 <span class="arithmatex">\(x\)</span> 的距离，<span class="arithmatex">\(r\)</span> 的方向规定为从源点指向场点。</p>
+<p>(1) 证明下列结果，并体会对源变数求微商 <span class="arithmatex">\(\left(\nabla'=\mathbf{e}_x \frac{\partial}{\partial x'}+\mathbf{e}_y \frac{\partial}{\partial y'}+\mathbf{e}_z \frac{\partial}{\partial z'}\right)\)</span> 与对场变数求微商 <span class="arithmatex">\(\left(\nabla=\mathbf{e}_x \frac{\partial}{\partial x}+\mathbf{e}_y \frac{\partial}{\partial y}+\mathbf{e}_z \frac{\partial}{\partial z}\right)\)</span> 的关系：</p>
+<p>$$
+\begin{aligned}
+\nabla r &amp;= -\nabla' r = \frac{\mathbf{r}}{r} \\
+\nabla \frac{1}{r} &amp;= -\nabla' \frac{1}{r} = -\frac{\mathbf{r}}{r^3} \\
+\nabla \times \frac{\mathbf{r}}{r^3} &amp;= 0 \\
+\nabla \cdot \frac{\mathbf{r}}{r^3} &amp;= -\nabla' \cdot \frac{\mathbf{r}}{r^3} = 0 \quad (r \neq 0)
+\end{aligned}
+$$
+（最后一式在 <span class="arithmatex">\(r=0\)</span> 点不成立，见第二章 §5）。</p>
+<p>证明：将 <span class="arithmatex">\(r\)</span> 表示为直角坐标下的分量式  <span class="arithmatex">\(\vec{r} = (x-x^{'}) \vec{e_{x}} + (y - y^{'}) \vec{e_{y}} + (z - z^{'}) \vec{e_{z}}\)</span> 和 <span class="arithmatex">\(r=\sqrt{(x-x')^2+(y-y')^2+(z-z')^2}\)</span><br />
+$$
+\nabla r = \partial_{i} \sqrt{(x_{i} - x_{i}^{'})^{2}} \vec{e_{i}} = \frac{(x_{i} - x_{i}^{'}) \vec{e_{i}}}{\sqrt{(x_{i} - x_{i}^{'})^{2}}} = \frac{\vec{r}}{r}
+$$</p>
+<div class="arithmatex">\[
+\nabla^{'} r = \partial_{i}^{'} \sqrt{(x_{i} - x_{i}^{'})^{2}} \vec{e_{i}} = - \frac{(x_{i} - x_{i}^{'}) \vec{e_{i}}}{\sqrt{(x_{i} - x_{i}^{'})^{2}}} = - \frac{\vec{r}}{r}
+\]</div>
+<div class="arithmatex">\[
+\nabla \frac{1}{r} = \partial_{i} \frac{1}{\sqrt{(x_{i} - x_{i}^{'})^{2}}} \vec{e_{i}} = - \frac{(x_{i} - x_{i}^{'}) \vec{e_{i}}}{\sqrt{(x_{i} - x_{i}^{'})^{2}}^{3}} = - \frac{\vec{r}}{r^{3}}
+\]</div>
+<div class="arithmatex">\[
+\nabla^{'} \frac{1}{r} = \partial_{i}^{'} \frac{1}{\sqrt{(x_{i} - x_{i}^{'})^{2}}} \vec{e_{i}} = \frac{(x_{i} - x_{i}^{'}) \vec{e_{i}}}{\sqrt{(x_{i} - x_{i}^{'})^{2}}^{3}} = \frac{\vec{r}}{r^{3}}
+\]</div>
+<div class="arithmatex">\[
+\nabla \times \frac{\vec{r}}{r^{3}} =  - \nabla \times (\nabla \frac{1}{r}) = 0
+\]</div>
+<div class="arithmatex">\[
+\nabla \cdot \frac{\vec{r}}{r^3} = -\nabla' \cdot \frac{\vec{r}}{r^3} = \frac{3}{r^{3}} - 3 \frac{\vec{r}}{r^{5}} \cdot \vec{r} = 0 \,\, (r \neq 0 )
+\]</div>
+<p>(2) 求 <span class="arithmatex">\(\nabla \cdot \mathbf{r}\)</span>，<span class="arithmatex">\(\nabla \times \mathbf{r}\)</span>，<span class="arithmatex">\((\mathbf{a} \cdot \nabla) \mathbf{r}\)</span>，<span class="arithmatex">\(\nabla (\mathbf{a} \cdot \mathbf{r})\)</span>，<span class="arithmatex">\(\nabla \cdot [\mathbf{E}_0 \sin (\mathbf{k} \cdot \mathbf{r})]\)</span> 及 <span class="arithmatex">\(\nabla \times [\mathbf{E}_0 \sin (\mathbf{k} \cdot \mathbf{r})]\)</span>，其中 <span class="arithmatex">\(\mathbf{a}\)</span>、<span class="arithmatex">\(\mathbf{k}\)</span> 及 <span class="arithmatex">\(\mathbf{E}_0\)</span> 均为常矢量。
+$$
+\nabla \cdot \vec{r} = 3
+$$</p>
+<div class="arithmatex">\[
+\nabla \times \vec{r} = 0
+\]</div>
+<div class="arithmatex">\[
+(\vec{a} \cdot \nabla)\vec{r} = \vec{a} \cdot \overset{\leftrightarrow}{I} = \vec{a}
+\]</div>
+<div class="arithmatex">\[
+\nabla (\vec{a} \cdot \vec{r}) = (\vec{a} \cdot \nabla) \vec{r} + (\vec{r} \cdot \nabla) \vec{a} + \vec{a} \times (\nabla \times \vec{r}) + \vec{r} \times (\nabla \times \vec{a}) = \vec{a} + 0 + 0 + 0 = \vec{a} 
+\]</div>
+<div class="arithmatex">\[
+\nabla \cdot [\mathbf{E}_0 \sin (\mathbf{k} \cdot \mathbf{r})] = (\nabla \sin(\vec{k} \cdot \vec{r})) \cdot \vec{E_{0}} + \sin(\vec{k} \cdot \vec{r}) \nabla \cdot \vec{E_{0}} = \cos (\vec{k} \cdot \vec{r}) \,\, \nabla(\vec{k} \cdot \vec{r}) \cdot \vec{E_{0}} + 0 = \cos (\vec{k} \cdot \vec{r}) (\vec{k} \cdot \vec{E_{0}})
+\]</div>
+<div class="arithmatex">\[
+\nabla \times [\mathbf{E}_0 \sin (\mathbf{k} \cdot \mathbf{r})] = (\nabla \sin(\vec{k} \cdot \vec{r})) \times \vec{E_{0}} + \sin(\vec{k} \cdot \vec{r}) \nabla \times \vec{E_{0}} = \cos (\vec{k} \cdot \vec{r}) \vec{k} \times \vec{E_{0}} + 0 = \cos (\vec{k} \cdot \vec{r}) (\vec{k} \times \vec{E_{0}})
+\]</div>
+<h4 id="16">1.6</h4>
+<p>若 <span class="arithmatex">\(\mathbf{m}\)</span> 是常矢量，证明除 <span class="arithmatex">\(R=0\)</span> 点以外，矢量 <span class="arithmatex">\(\mathbf{A} = \frac{\mathbf{m} \times \mathbf{R}}{R^3}\)</span> 的旋度等于标量 <span class="arithmatex">\(\varphi = \frac{\mathbf{m} \cdot \mathbf{R}}{R^3}\)</span> 的梯度的负值，即
+$$
+\nabla \times \mathbf{A} = -\nabla \varphi \qquad (R \neq 0)
+$$</p>
+<p>其中 <span class="arithmatex">\(\mathbf{R}\)</span> 为坐标原点到场点的距离，方向由原点指向场点。</p>
+<p>证明：
+$$
+\begin{aligned}
+\nabla \times \vec{A} &amp;= - \nabla \times (\vec{m} \times \nabla \frac{1}{r}) =  - (\vec{m} \nabla^{2} \frac{1}{r} - \vec{m} \cdot \nabla \nabla \frac{1}{r} + (\nabla \frac{1}{r}) \cdot (\nabla \vec{m}) - (\nabla \frac{1}{r})(\nabla \cdot \vec{m})) \\
+&amp;= -(0 - \frac{3 (\vec{m} \cdot \vec{r}) \vec{r}}{r^{5}} + \frac{\vec{m}}{r^{3}} + 0 - 0) = - \frac{\vec{m}}{r^{3}} + \frac{3(\vec{m} \cdot \vec{r})}{r^{5}} \qquad (R \neq 0)
+\end{aligned}
+$$</p>
+<div class="arithmatex">\[
+\begin{aligned}
+- \nabla \varphi &amp;= \nabla (\vec{m} \cdot \nabla \frac{1}{r}) = \vec{m} \times (\nabla \times \nabla \frac{1}{r}) + \nabla \frac{1}{r} \times (\nabla \times \vec{m}) + (\vec{m} \cdot \nabla) \nabla \frac{1}{r} + (\nabla \frac{1}{r} \cdot \nabla) \vec{m} \\\\
+&amp;= 0 + 0 + \vec{m} \cdot \nabla \nabla \frac{1}{r} + 0 = - \frac{\vec{m}}{r^{3}} + \frac{3(\vec{m} \cdot \vec{r})}{r^{5}} \qquad (R \neq 0)
+\end{aligned}
+\]</div>
+<h4 id="_1">思考题</h4>
+<p><span class="arithmatex">\(\nabla \cdot \vec{A} &gt; 0\)</span>，<span class="arithmatex">\(\nabla \cdot \vec{A} = 0\)</span>，<span class="arithmatex">\(\nabla \cdot \vec{A} &lt; 0\)</span> 在直观图像上有什么差别？<span class="arithmatex">\(\nabla \times \vec{A} &gt; 0\)</span>，<span class="arithmatex">\(\nabla \times \vec{A} = 0\)</span>，<span class="arithmatex">\(\nabla \times \vec{A} &lt; 0\)</span> 呢？</p>
+<p><span class="arithmatex">\(\nabla \cdot \vec{A} &gt; 0\)</span> 在直观上表示为矢量场<span class="arithmatex">\(\vec{A}\)</span> 在图像上从该点向四周“发射”，总体作用向外的；</p>
+<p><span class="arithmatex">\(\nabla \cdot \vec{A} = 0\)</span> 在直观上表现为该点的矢量场在打转或者干脆没有，进出相互抵消，总通量为0；</p>
+<p><span class="arithmatex">\(\nabla \cdot \vec{A} &lt; 0\)</span> 在直观上表现为该点的矢量场向内汇聚，总体作用向内。</p>
+<p><span class="arithmatex">\(\nabla \times \vec{A} = 0\)</span> 表现为该点的矢量场沿着径向或者为0。</p>
+<p>我不知道<span class="arithmatex">\(\nabla \times \vec{A} &gt; 0\)</span> <span class="arithmatex">\(\nabla \times \vec{A} &lt; 0\)</span>是什么意思。如果是针对一个特定方向定义的话那么代表着二者旋转方向相反。</p>
+<h3 id="3-delta">3. <span class="arithmatex">\(\delta\)</span> 函数</h3>
+<h4 id="214">2.14</h4>
+<p>画出函数 <span class="arithmatex">\(\frac{\mathrm{d}\delta(x)}{\mathrm{d}x}\)</span> 的图，说明 <span class="arithmatex">\(\rho = -(\mathbf{p} \cdot \nabla)\delta(\mathbf{x})\)</span> 是一个位于原点的偶极子的电荷密度。</p>
+<p>函数  <span class="arithmatex">\(\frac{\mathrm{d}\delta(x)}{\mathrm{d}x}\)</span> 的图：</p>
+<p><a class="glightbox" href="../image-20250228141027350.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image-20250228141027350" src="../image-20250228141027350.png" /></a></p>
+<p>注：因为严格的图像画出后函数曲线和坐标轴不太好分辨，此图是利用高斯函数在极限情况下的一个近似图像，可以体现函数的部分性质。 </p>
+<p>证明：
+$$
+\begin{aligned}
+\int \rho \vec{r} \, d \tau &amp;= \int  -(\vec{p} \cdot \nabla)\delta(\vec{r}) \, \vec{r} \, d \tau = \int ( (\nabla \cdot \vec{p}) \delta(\vec{r}) - \nabla \cdot (\delta(\vec{r}) \vec{p})) \vec{r} d \tau \\
+&amp;= - \int \nabla \cdot (\delta(\vec{r}) \vec{p} \vec{r}) d \tau + \int \delta(\vec{r}) \vec{p} \cdot \nabla \vec{r} \, d \tau = \int \delta(\vec{r}) \vec{p} \, d \tau = \vec{p}
+\end{aligned}
+$$</p>
+<h4 id="_2">思考题：</h4>
+<p>(1) <span class="arithmatex">\(\delta(ax) = \frac{1}{|a|}\delta(x), a &gt; 0\)</span>. （若 <span class="arithmatex">\(a &lt; 0\)</span>，结果如何？）</p>
+<p>证明：
+$$
+\begin{aligned}
+\delta(ax) \, d (ax) &amp;=  \delta (x) \, dx \\
+\therefore \,\, \delta(ax) &amp;= \frac{1}{|a|}\delta(x), a &gt; 0
+\end{aligned}
+$$
+当 <span class="arithmatex">\(a &lt; 0\)</span> 时，
+$$
+\delta(ax) = - \frac{1}{|a|}\delta(x), a &gt; 0
+$$</p>
+<p>(2) <span class="arithmatex">\(x\delta(x) = 0\)</span>.
+$$
+\because \,\, f(x) \delta(x-x_{0}) = f(x_{0})
+$$</p>
+<div class="arithmatex">\[
+\therefore \,\, x \delta (x-0) = 0
+\]</div>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  <form class="md-feedback" name="feedback" hidden>
+    <fieldset>
+      <legend class="md-feedback__title">
+        Was this page helpful?
+      </legend>
+      <div class="md-feedback__inner">
+        <div class="md-feedback__list">
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page was helpful" data-md-value="1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m7 0c0 .8-.7 1.5-1.5 1.5S14 10.3 14 9.5 14.7 8 15.5 8s1.5.7 1.5 1.5m-5 7.73c-1.75 0-3.29-.73-4.19-1.81L9.23 14c.45.72 1.52 1.23 2.77 1.23s2.32-.51 2.77-1.23l1.42 1.42c-.9 1.08-2.44 1.81-4.19 1.81"/></svg>
+            </button>
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page could be improved" data-md-value="0">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10m-6.5-4c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5-1.5-.7-1.5-1.5.7-1.5 1.5-1.5M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m2 4.5c1.75 0 3.29.72 4.19 1.81l-1.42 1.42C14.32 16.5 13.25 16 12 16s-2.32.5-2.77 1.23l-1.42-1.42C8.71 14.72 10.25 14 12 14"/></svg>
+            </button>
+          
+        </div>
+        <div class="md-feedback__note">
+          
+            <div data-md-value="1" hidden>
+              
+              
+                
+              
+              
+              
+                
+                
+              
+              Thanks for your feedback!
+            </div>
+          
+            <div data-md-value="0" hidden>
+              
+              
+                
+              
+              
+              
+                
+                
+              
+              Thanks for your feedback! Help us improve this page by using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
+            </div>
+          
+        </div>
+      </div>
+    </fieldset>
+  </form>
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../../../../..", "features": ["navigation.instant", "navigation.tabs", "navigation", "navigation.top", "navigation.sections", "navigation.tracking"], "search": "../../../../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+      <script src="../../../../../../assets/javascripts/bundle.92b07e13.min.js"></script>
+      
+        <script src="../../../../../../custom_js/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
+</html>
